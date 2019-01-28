@@ -26,7 +26,6 @@
 // Various functions for helping debug WebGL apps.
 
 var WebGLDebugUtils = function() {
-var window
 
 //polyfill window in node
 if (typeof(window) == 'undefined') {
